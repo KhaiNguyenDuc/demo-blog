@@ -1,0 +1,36 @@
+@media (min-width: 576px) {
+  #content {
+    width: 1000px;
+  }
+}
+@media (max-width: 575px) {
+  img {
+    width: 300px;
+  }
+}
+#shadowBox {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.page-link.active {
+  background-color: #00a9a1;
+  border-color: #00a9a1;
+}
+.nav-link.active {
+  background-color: #91dfdb;
+  border-color: #91dfdb;
+  border-radius: 15px;
+}
+.nav-link:hover {
+  background-color: #cdebe9;
+  border-color: #cdebe9;
+  border-radius: 15px;
+}
+.showMore {
+  text-align: right;
+}
+.carousel-item {
+  height: 200px;
+}
+.carousel-item img {
+  height: 200px;
+}
